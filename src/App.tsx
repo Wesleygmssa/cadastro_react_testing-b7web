@@ -1,9 +1,9 @@
-import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import { Header } from './components/Header';
-import { CarList } from './pages/CarList';
-import { NotFound } from './pages/NotFound';
-import { EditCar } from './pages/EditCar';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { Header } from "./components/Header";
+import { CarList } from "./pages/CarList";
+import { NotFound } from "./pages/NotFound";
+import { EditCar } from "./pages/EditCar";
 
 function App() {
   return (
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };
